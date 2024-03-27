@@ -21,3 +21,16 @@ Wait until codeserver is startet (it is started, in case you see the codeserver 
 To start the application, call:
 
 http://localhost:8080/index.html
+
+```
+mvn archetype:generate \
+   -DarchetypeGroupId=com.github.nalukit.archetype \
+   -DarchetypeVersion=LATEST \
+   -DarchetypeArtifactId=modular-springboot-webapp \
+  -DgroupId=org.chenmin.gwt                                \
+  -DartifactId=springboot                          \
+  -Dmodule=hello                         \
+  -Dmodule-short-name=hello                         \
+  -Dversion=1.0.0
+
+```
