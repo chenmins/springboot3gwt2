@@ -1,0 +1,4 @@
+/.idea
+/springboot-client/target
+/springboot-server/target
+/springboot-shared/target
